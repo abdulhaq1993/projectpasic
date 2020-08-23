@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        font-family:scto-bold, scto-medium, scto-regular ;
+        Farbe: #F4F4F4 / #252422 / #F9CDCD
+
+              } 
+  @font-face {
+        font-family: aBold;
+        src: url(../../fonts/SctoGroteskA-Bold.woff2);
+              }
+  @font-face {
+        font-family: aMedium;
+        src: url(../../fonts/SctoGroteskA-Medium.woff2);
+              }
+  @font-face {
+        font-family: aRegular;
+        src: url(../../fonts/SctoGroteskA-Regular.woff2);
+        }
+    body{
+        margin:0;
+        padding:0;
+        font-family: aBold,aMedium,aRegular;
+        }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3%;
+        padding-right: 3%;
+        height: 5%;
+        font-family: aMedium;
+        }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding-right: 10%;
+        font-size: 15px;
+        }
+    nav ul {
+        width:90%;
+        text-align: center;
+        }
+    nav li a{
+        color: grey;
+        text-decoration: none;
+        }
+    nav a:hover{
+        text-decoration: underline;
+        }
+    nav a:visited{
+        color:grey;
+        }
+    nav img:first-of-type{
+        width: 10%;
+        }
+    nav img:last-of-type{
+        width: 4%;
+        }
+    aside{
+          margin: 0;
+          height: 100vh;
+        }
+    aside h1{
+            margin-top: 5%;
+            margin-left: 3%;
+            font-size: 5em;
+        }
+    #br1{
+            width: 50px;
+            height:10px;
+            background: #252422;
+            border-radius: 100%;
+            font-size: 1em;
+            color: #252422;
+        }
+    aside p{
+            width: 30%;
+            font-size: 19px;
+            margin-left: 63%;
+            margin-top: 13%;
+        }
+    aside div{
+        border-bottom: #252422 2px solid;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 6%;
+        }
+    article h3{
+        margin-top: 5%;
+        margin-left: 6%;
+        color: #252422;
+
+        }
+    article h2{
+        margin-left: 6%;
+        margin-top: 12%;
+
+        }
+    article p{
+        margin-left: 6%;
+        color: #252422;
+        width: 27%;
+        margin-top: 2%;
+        }
+    .workbutt{
+        background: #F4F4F4;
+        border-radius: 70px;
+        font-size: 14px;
+        padding-left: 4%;
+        padding-right: 9%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 10vw;
+        margin-left: 6%;
+        /* display: ruby-text;
+        justify-content: center; */
+       }
+    .workbutt:hover{
+       background: black;
+       color: white;
+       }
+    .borderricht1{
+       border: black 1px solid;
+       height: 35em;
+       width: 0px;
+       position: absolute;
+       margin-left: 38%;
+       margin-top: -28.5%;
+       }
+    article{ 
+       margin: 0;
+       padding: 0;
+       height: 80vh;
+       }
+    .videogred{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 5px;
+        margin-left: 37%;
+        margin-top: -29%;
+       
+    }
+    .texth3{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        padding: 5px;
+        margin-left: 40%;
+    }
+    .texth3 p{
+        font-size: 12px;
+    }
+    .texth32{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        padding: 5px;
+        margin-left: 70%;
+        margin-top: -10.5%;
+    }
+    .texth32 p{
+        font-size: 12px;
+        width: 39%;
+
+    }
+    .Borderbutton1{
+        border-bottom: #252422 2px solid;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 1%;
+    }
+    .imagesgred{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 5px;
+        margin-left: 39%;
+        margin-top: -34%; 
+    }
+    .borderricht2{
+       border: black 1px solid;
+       height: 37.5em;
+       width: 0px;
+       position: absolute;
+       margin-left: 38%;
+       margin-top: -34.5%;
+       }
+       .imagesgred1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 5px;
+        margin-left: 39%;
+        margin-top: -32%; 
+    }
+    .borderricht3{
+       border: black 1px solid;
+       height: 37.5em;
+       width: 0px;
+       position: absolute;
+       margin-left: 38%;
+       margin-top: -32%;
+       }
+       .BorderbuttonEnd{
+        border-bottom: #252422 2px solid;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 3%;
+       }
+       footer{
+           height: 80vh;
+           background: #252422;
+           margin-top: 255vh;
+           color: #F4F4F4;
+       }
+       .footerimig{
+           /* position: relative; */
+           display: grid;
+           grid-template-columns: 1fr  1fr;
+           /* margin-left: 6%;
+           padding-top: 5%; */
+           padding: 5%;
+       }
+       .tAt{
+           /* padding-top: 8%;
+           padding-left: 6%; */
+           padding: 5%;
+       }
+       .borderfooter{
+           border: #F4F4F4 1px solid;
+           width: 43.5%;
+           margin-top: -5%;
+           margin-left: 5%;
+        }
+       .parent {
+           display: grid;
+           grid-template-columns: repeat(6, 1fr);
+           grid-template-rows: repeat(2, 1fr);
+           grid-column-gap: 90px;
+           grid-row-gap: 0px;
+           margin-left: 50%;
+           margin-top: -7%;
+        } 
+        .footergridtext{
+           display: grid;
+           grid-template-columns: repeat(6, 1fr);
+           grid-template-rows: repeat(2, 1fr);
+           grid-column-gap: 110px;
+           grid-row-gap: 0px;
+           margin-left: 50%;
+           margin-top: -7%;
+        }
+       .Endp{
+           width: 200%;
+       }
+       .navfuss{
+           background: black;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <img  src="../img/logo.svg" alt="">
+        <ul>
+            <li><a href="assets/html/work.html">WORK</a></li>
+            <li><a href="assets/html/about.html">ABOUT</a></li>
+            <li><a href="assets/html/news.html">NEWS</a></li>
+            <li><a href="assets/html/thinking.html">THINKING</a></li>
+            <li><a href="assets/html/contact.html">CONTACT</a></li>
+        </ul>
+        <img src="../img/menu.svg" alt="">
+    </nav>
+    <aside>
+         <h1>EASY TO <br> UNDERSTAND. <br><span id="br1">.</span> IMPOSSIBLE<br> TO IGNORE.</h1>
+         <p>The work we create lives at the intersection of clarity and surprise and positions brands in culture through shared values and ideals.
+        </p>
+        <div></div>
+    </aside>
+    <article>
+        <h3>01/04</h3>
+           <h2>BRANDED <br> ECOMMERCE</h2>
+        <p>We go beyond best practices and build best-in-class D2C channels that drive commerce, shape culture, and define categories.
+    </p>
+    <input type="button" value="Lern More" class="workbutt">
+        <div class="borderricht1"></div>
+           
+        <div class="videogred">
+            <video width="440" height="370" autoplay>
+                <source src="../img/Google-Store.mp4" type="video/mp4">
+              </video>
+              <img src="../img/Beats.jpg" alt="" width="300px">
+              
+        </div>
+        <div class="texth3">
+            <h3>Google Store</h3>
+              <p>AN ECOMMERCE EXPERIENCE HELPING GOOGLE BRING ITS HARDWARE TO PEOPLE ACROSS THE GLOBE</p>
+            </div>
+        <div class="texth32">
+           <h3>Beats By Dre</h3>
+            <p>ENGINEERING A DIGITAL DESTINATION THAT MOVES AT THE SPEED OF CULTURE</p>
+        </div>
+        <div class="Borderbutton1"></div>
+        <h3>02/04</h3>
+        <h2>DIGITAL <br> PRODUCTS+ <br>SERVICES</h2>
+     <p>We identify and create digital products and services that create revenue channels and help brands thrive in the new economy.
+      </p>
+ <input type="button" value="Lern More" class="workbutt">
+     <div class="borderricht2"></div>
+        
+     <div class="imagesgred">
+           <img src="../img/Fender.jpg" alt="" width="330px">
+
+           <img src="../img/AMEX.jpg" alt="" width="330px">
+           
+     </div>
+     <div class="texth3">
+         <h3>Fender Academy</h3>
+           <p> A WEB SERVICE TO MAKE SALES TRAINING FEEL LESS LIKE WORK AND MORE LIKE PLAY</p>
+         </div>
+     <div class="texth32">
+        <h3>American Express</h3>
+         <p>LAYING A DESIGN FOUNDATION FOR FUTURE PRODUCTS AND SERVICES WITH THE OPEN APP</p>
+     </div>
+     <div class="Borderbutton1"></div>
+     <h3>03/04</h3>
+        <h2>WEBSITES +<br>PLATFORMS</h2>
+     <p>We conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.
+    </p>
+ <input type="button" value="Lern More" class="workbutt">
+     <div class="borderricht3"></div>
+        
+     <div class="imagesgred1">
+           <img src="../img/Riot.jpg" alt="" width="330px">
+
+           <img src="../img/Softbank.jpg" alt="" width="330px">
+           
+     </div>
+     <div class="texth3">
+         <h3>Riot Games</h3>
+           <p> REVITALIZING THE RIOT GAMES BRAND WITH AN UPGRADED DIGITAL EXPERIENCE
+        </p>
+         </div>
+     <div class="texth32">
+        <h3>SoftBank Vision Fund</h3>
+         <p>BUILDING A DIGITAL DESTINATION FOR THE LEADING TECH INVESTMENT FUND
+        </p>
+     </div>
+     <div class="Borderbutton1"></div>
+     <h3>04/04</h3>
+        <h2>BRANDING +<br>ADVERTISING</h2>
+     <p>We create identities, platforms, and activations that differentiate brands and position them to matter in culture.
+     </p>
+ <input type="button" value="Lern More" class="workbutt">
+     <div class="borderricht3"></div>
+        
+     <div class="imagesgred1">
+           <img src="../img/NERD.jpg" alt="" width="330px">
+
+           <img src="../img/Beats.jpg" alt="" width="330px">
+           
+     </div>
+     <div class="texth3">
+         <h3>NERD Skincare</h3>
+           <p> DEVELOPING A BRAND THAT BROUGHT SCIENCE TO BEAUTY IN BOLD, UNEXPECTED WAYS
+          </p>
+         </div>
+     <div class="texth32">
+        <h3>Brixton</h3>
+         <p>HONORING THE PAST TO BUILD THE FUTURE OF THE BRIXTON BRAND
+        </p>
+     </div>
+     <div class="BorderbuttonEnd"></div>
+    </article>
+   
+<footer>
+      <div class="footerimig">
+       <img src="../img/footer-logo.svg" alt="" width="60px">
+       <h2>We collaborate with ambitious <br> brands and people. Let’s connect :)</h2>
+      </div>
+      <h2 class="tAt">STAY IN THE KNOW <br> Email Address</h2>
+       <div class="borderfooter"></div>
+    <div class="parent">
+            <h2>Social</h2>
+            <h2>INITIATIVES</h2>
+          <h2>OFFICES</h2>
+         
+    </div>
+       <div class="footergridtext">
+          <p>Instagram Twitter Linkedin Facebook</p>
+            <p>Crafted Culture Manual Applied Brandbeats Moves</p>
+              <p class="Endp">San Diego – CA 
+               Bay Area – CA 
+               St. Louis – MO 
+              </p>
+       </div>
+</footer>
+  <nav class="navfuss">
+    <ul>
+        <li><a href="">BASIC®, INC 10 - 20©</a></li>
+        <li><a href="">EASY TO UNDERSTAND, IMPOSSIBLE TO IGNORE.™</a></li>
+        <li><a href="">TERMS, PRIVACY POLICY</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
